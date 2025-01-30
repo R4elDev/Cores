@@ -4,12 +4,18 @@
     box-sizing: border-box;
 }
 
+:root {
+    --cor-fundo: blue;
+
+}
+
 body {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: tomato;
+    background-color: var(--cor-fundo);
+    transition: background-color 1s;
 }
 
 #cor{
